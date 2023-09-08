@@ -1,0 +1,5 @@
+val data: Triple<Int,Int,Int> =Triple(9,7,23)
+val month = data.first
+val day = data.second
+val year = data.third
+val(month,_,year)= data
